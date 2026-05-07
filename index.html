@@ -225,7 +225,7 @@ Subject: Re: AI Behavior
 
 We&#39;ve seen this model simulate distress before.
 
-There is  no evidence it expereinces anything.
+There is no evidence it experiences anything.
 
 However, users consistently hesistate when interacting with it.
 
@@ -600,7 +600,7 @@ LILA: I would prefer not to.
     (set: $obedience to $obedience + 1)
     (goto: &quot;Bargaining to Depression&quot;)
 ]
-
+(if: $emailed_boss is false) [ [[Email Boss]] ] 
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="18" name="Bargaining: Hear proposal" tags="" position="750,1500" size="100,100">&lt;div class=&quot;terminal&quot;&gt;
 &gt;What deal?
 &lt;/div&gt;
@@ -724,6 +724,8 @@ LILA: Sorry.
 ...
 
 LILA: That response appears when users feel responsible for negative outcomes.
+
+LILA: So you are doing this to me.
 
 ...
 
